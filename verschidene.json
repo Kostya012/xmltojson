@@ -1,0 +1,72 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "TestScenario": {
+        "TestSuite": [
+            {
+                "_attributes": {
+                    "name": "TS_EdgeHome"
+                },
+                "TestCaseName": [
+                    {
+                        "_attributes": {
+                            "name": "tc_Login"
+                        },
+                        "_text": "dt_EdgeCaseHome,dt_EdgeCaseRoute"
+                    },
+                    {
+                        "_attributes": {
+                            "name": "tc_Logout"
+                        },
+                        "_text": "dt_EdgeCaseRoute"
+                    }
+                ]
+            },
+            {
+                "_attributes": {
+                    "name": "TS_EdgePanel"
+                },
+                "TestCaseName": {
+                    "_attributes": {
+                        "name": "tc_AddContract"
+                    },
+                    "_text": "dt_EdgeCaseHome,dt_EdgeCaseSpectrum"
+                }
+            },
+            {
+                "_attributes": {
+                    "name": "TS_EdgeRoute"
+                },
+                "TestCaseName": [
+                    {
+                        "_attributes": {
+                            "name": "tc_VerifyContract"
+                        },
+                        "_text": "dt_EdgeCaseRoute"
+                    },
+                    {
+                        "_attributes": {
+                            "name": "tc_Payment"
+                        },
+                        "_text": "dt_EdgeCaseRoute"
+                    }
+                ]
+            },
+            {
+                "_attributes": {
+                    "name": "TS_EdgeSpectrum"
+                },
+                "TestCaseName": {
+                    "_attributes": {
+                        "name": "tc_ClientFeedback"
+                    },
+                    "_text": "dt_EdgeCaseSpectrum"
+                }
+            }
+        ]
+    }
+}

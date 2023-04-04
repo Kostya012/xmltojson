@@ -1,0 +1,14 @@
+{
+  "name": "xmltojson",
+  "version": "0.0.1",
+  "description": "Convert XML to JSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kostiantyn Shevtsov",
+  "license": "ISC",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
